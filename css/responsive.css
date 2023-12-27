@@ -1,0 +1,183 @@
+@media only screen and (max-width: 46.1875em) {
+
+    .sidebar-left {
+        bottom: 0 !important;
+        width: 100% !important;
+        height: 60px !important;
+        top: unset !important;
+    }
+
+    .sidebar_tabs ul {
+        display: flex;
+        height: 60px;
+    }
+
+    .sidebar-item {
+        height: 100% !important;
+        border: none !important;
+        padding: 0 !important;
+        justify-content: center !important;
+        flex-direction: column;
+    }
+
+    .sidebar-item i {
+        margin-right: 0px !important;
+    }
+
+    .sidebar-item span {
+        display: none;
+    }
+
+    .main-container {
+        position: unset !important;
+        padding-bottom: 25px;
+    }
+
+    .header {
+        padding: 0 20px !important;
+    }
+
+    .header-wrapper {
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    .header-search input {
+        width: 80%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .header-search {
+        margin-left: 0 !important;
+    }
+
+    .profile {
+        margin-top: 90px;
+    }
+
+    .music-option {
+        margin-top: 30px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .music-option ul {
+        width: 320px !important;
+        margin-bottom: 1px !important;
+    }
+
+    .music-option ul li:last-child {
+        display: none !important;
+    }
+
+    .tab-item {
+        margin-right: 3px !important;
+    }
+
+    .music-list ul {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .option-all,
+    .option-music,
+    .option-playlist,
+    .option-singer,
+    .discover {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .option-playlist,
+    .option-singer {
+        margin-top: 30px;
+    }
+
+    .option-heading h3 {
+        margin: -10px auto 20px auto;
+    }
+
+    .playlist-list {
+        padding-bottom: 15px;
+    }
+
+    .mv-list {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .music-control {
+        padding: 0 0 0 6px;
+        bottom: 60px !important;
+        height: 60px;
+    }
+
+    .mc-img {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .sidebar-right,
+    .action-control,
+    .btn-random,
+    .mc-progress,
+    .btn-repeat,
+    .sidebar_logo,
+    .sidebar_line,
+    .sidebar_lib,
+    .option-heading div:nth-child(2),
+    .songs-item-center,
+    .songs-item-end,
+    .music-header,
+    .header-undo,
+    .profile-vip,
+    .header-setting div:nth-child(2),
+    .header-setting div:nth-child(3) {
+        display: none !important;
+    }
+
+    .music-control-item {
+        max-width: unset !important;
+        height: 60px !important;
+        padding-right: 0.25rem !important;
+    }
+
+    .music-control-action {
+        max-width: 38% !important;
+        height: 60px !important;
+    }
+
+    .control-item {
+        margin: 0 auto !important;
+    }
+
+    #prev-btn i,
+    #next-btn i {
+        font-size: 2.6rem !important;
+        padding-top: 4px !important;
+    }
+
+    .zingchart {
+        margin: 90px 20px 0 20px;
+    }
+
+    .zingchart-headding,
+    .zingchart-bxh {
+        text-align: center;
+        display: block;
+    }
+
+    .zingchart-item ul li {
+        padding-left: 0 !important;
+    }
+
+    .zingchart-list {
+        width: 100%;
+    }
+
+    .discover-slider {
+        flex-direction: column;
+    }
+}

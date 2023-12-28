@@ -95,7 +95,7 @@ $(function() {
                 //                     $(this).css({"transform": "rotate("+now+"deg)"});
                 //                 },
                 //     }
-                //     );
+                //     )
                 audio.play();
 
             }

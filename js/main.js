@@ -2,6 +2,7 @@
 var audio = new Audio();
 var slider;
 var currentPlayID;
+
 $(function() {
     $('.play').click(function() {
         var _this = $(this)
@@ -32,7 +33,11 @@ $(function() {
                         _this.attr('data-type', 'play')
                         
                         $('.play').html('<i class="fa fa-play"></i>')
-                        $('.play[data-id="'+id+'"]').html('<img class="cs-playbtn-img playing"src="./images/icon-playing.gif">')      
+                        $('.play[data-id="'+id+'"]').html('<img class="cs-playbtn-img playing"src="./images/icon-playing.gif">')  
+
+                        $('.cd-thumb').css('-webkit-animation','10s linear infinite spinner-border')
+
+                        $('.mc_left').css('transform','translateX(10px)')
 
                         $('#play-btn').attr('data-value', 'pause')
                         $('#play-btn').html('<i class="fa fa-pause"></i>').focus()
@@ -73,12 +78,26 @@ $(function() {
                 $(this).attr('data-value', 'play')
                 $('#play-btn').html('<i class="fa fa-play"></i>')
                 $('.play').html('<i class="fa fa-play"></i>')
+                $('.mc_left').css('transform','translateX(0px)')
+                // $('.cd-thumb').stop(true)
                 audio.pause();
+
             } else {
                 $(this).attr('data-value', 'pause')
                 $('#play-btn').html('<i class="fa fa-pause"></i>')
                 $('.play[data-id="' + currentPlayID + '"]').html('<img class="cs-playbtn-img playing"src="./images/icon-playing.gif">')
+                $('.mc_left').css('transform','translateX(10px)')
+                // $('.cd-thumb').animate(
+                //     {rotation: 360},
+                //     {
+                //         duration: 10000,
+                //         step: function(now) {
+                //                     $(this).css({"transform": "rotate("+now+"deg)"});
+                //                 },
+                //     }
+                //     );
                 audio.play();
+
             }
         }
     })

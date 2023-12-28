@@ -196,6 +196,14 @@ input {
     background-position-y: center;
 }
 
+.mc_left {
+    transition: transform 0.5s;
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
 .mc-img {
     width: 60px;
     height: 60px;

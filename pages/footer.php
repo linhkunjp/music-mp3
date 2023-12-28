@@ -3,7 +3,7 @@
         <div class="col d-flex ps-4 music-control-item" style="max-width: 25%;">
             <div class="mc_left d-flex align-items-center">
                 <div>
-                    <img class="mc-img" id="display-img"></img>
+                    <img class="mc-img cd-thumb" id="display-img"></img>
                 </div>
                 <div class="d-flex flex-column mx-4 cursor">
                     <span id="inplay-title">No title</span>

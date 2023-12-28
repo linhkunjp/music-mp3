@@ -1,6 +1,6 @@
 <div class="profile">
     <a>
-        <img src="./images/0.webp">
+        <img src="./images/0.webp" class="cd-thumb">
     </a>
     <span>Gia Linh</span>
     <div class="profile-vip ">

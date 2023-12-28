@@ -7,6 +7,11 @@
         top: unset !important;
     }
 
+    .sidebar_tabs {
+        position: relative;
+        z-index: 99;
+    }
+
     .sidebar_tabs ul {
         display: flex;
         height: 60px;
@@ -145,7 +150,7 @@
     }
 
     .music-control-action {
-        max-width: 38% !important;
+        max-width: 37% !important;
         height: 60px !important;
     }
 
@@ -179,5 +184,12 @@
 
     .discover-slider {
         flex-direction: column;
+    }
+
+    #inplay-description {
+        width: 170px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
     }
 }

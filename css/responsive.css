@@ -7,11 +7,6 @@
         top: unset !important;
     }
 
-    .sidebar_tabs {
-        position: relative;
-        z-index: 99;
-    }
-
     .sidebar_tabs ul {
         display: flex;
         height: 60px;
